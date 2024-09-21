@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Upload and View Photos</h1>
+    </header>
+    
+    <main>
+        <section class="upload-section">
+            <h2>Select a Photo</h2>
+            <input type="file" id="fileInput" accept="image/*">
+            <div class="preview">
+                <h3>Preview</h3>
+                <img id="previewImage" alt="Image Preview">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Photo Uploader</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
